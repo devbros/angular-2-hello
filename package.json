@@ -1,0 +1,45 @@
+{
+  "name": "angular-2-hello",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devbros/angular-2-hello.git"
+  },
+  "version": "0.1.0",
+  "homepage": "https://github.com/devbros/angular-2-hello",
+  "author": "Simon Harding <s-harding@hotmail.com>",
+  "main": "gulpfile.js",
+  "license": "MIT",
+  "devDependencies": {
+    "connect": "^3.3.4",
+    "del": "~1.1.1",
+    "gulp": "~3.8.11",
+    "gulp-batch": "^1.0.5",
+    "gulp-concat": "~2.5.0",
+    "gulp-gh-pages": "^0.5.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-rename": "~1.2.0",
+    "gulp-size": "^1.2.1",
+    "gulp-traceur": "0.17.*",
+    "gulp-watch": "^4.2.4",
+    "open": "0.0.5",
+    "serve-static": "~1.8.1",
+    "systemjs-builder": "^0.10.4",
+    "through2": "~0.6.3"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-alpha.19",
+    "axios": "^0.5.2",
+    "es6-module-loader": "~0.11.0",
+    "rtts_assert": "^2.0.0-alpha.7",
+    "systemjs": "^0.14.1",
+    "zone.js": "^0.4.1"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

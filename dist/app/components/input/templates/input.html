@@ -1,0 +1,16 @@
+<div>
+  <!-- Still having to use domElement value. bug: https://github.com/angular/angular/issues/1359 raised by SekibOmazic -->
+  <!-- Attempted to use decorators here instead of the explicit keyup, but i think the bug above is related to it not working -->
+  Whats your name: <input #input (keyup)="update(input.domElement.value)" type="text" [value]="name">
+  <br>
+  <div>
+    <br>
+    <span *if="!name">Oh, hi...?</span>
+    <!-- Using the reference directly, but also using the name property  -->
+    <span [style.color]="input.domElement.value" *if="name">Hello {{name}}!</span>
+    <br>
+    <br>
+    <button (click)="changeName()">Change name</button>
+    <button (click)="add()">Add</button>
+  </div>
+</div>
