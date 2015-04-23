@@ -1,9 +1,8 @@
 <div>
-  <span *if="names">Changed your name from... </span>
-  <ul class="list-group">
-    <li *for="#name of names" class="list-group-item">
+  <ul>
+    <li *for="#name of names">
       <span> {{name.name}} </span>
-      <a href="#" (click)="delete(name)" class="badge" aria-hidden="true">remove</a>
+      <a href="#" (click)="delete(name)">remove</a>
     </li>
   </ul>
 </div>

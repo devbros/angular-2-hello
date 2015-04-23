@@ -4,6 +4,7 @@ System.register("app/components/list/list", ["angular2/angular2", "angular2/di",
   var Component,
       View,
       For,
+      List,
       Inject,
       nameService,
       HelloList;
@@ -12,6 +13,7 @@ System.register("app/components/list/list", ["angular2/angular2", "angular2/di",
       Component = $__m.Component;
       View = $__m.View;
       For = $__m.For;
+      List = $__m.List;
     }, function($__m) {
       Inject = $__m.Inject;
     }, function($__m) {
